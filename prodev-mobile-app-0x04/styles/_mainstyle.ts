@@ -1,42 +1,42 @@
-import { Dimensions, StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
-//Constants for reuseable values
+// Constants for reusable values
 const COLORS = {
-    white: "#fff",
+  white: "#fff",
 };
 
 const SPACING = {
-    small: 10,
-    medium: 20,
-    large: 40,
+  small: 10,
+  medium: 20,
+  large: 40,
 };
 
 const FONT_SIZE = {
-    small: 18,
-    medium: 24,
-    large: 40,
+  small: 18,
+  medium: 24,
+  large: 40,
 };
 
 const BORDER_RADIUS = {
-    large: 36,
+  large: 36,
 };
 
 const { height } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
-    backgroundImageContainer: {
-        flex: 1,
-        height: height,
-    },
-    logoContainer: {
-        padding: SPACING.large,
-        alignItems: "center",
-        marginTop: 74,
-    },
-    titleContainer: {
+  container: {
+    flex: 1,
+  },
+  backgroundImageContainer: {
+    flex: 1,
+    height: height,
+  },
+  logoContainer: {
+    padding: SPACING.large,
+    alignItems: "center",
+    marginTop: 74,
+  },
+  titleContainer: {
     marginTop: SPACING.large,
   },
   titleText: {
@@ -95,4 +95,5 @@ const styles = StyleSheet.create({
     marginTop: 19,
   },
 });
+
 export { styles };
