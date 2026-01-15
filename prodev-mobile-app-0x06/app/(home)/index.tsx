@@ -45,7 +45,7 @@ const Home = () => {
                   style={{
                     flex: 1,
                   }}
-                  source={require("@/assets/images/mansion.png")}
+                  source={require("@/assets/images/hero-icon.png")}
                   resizeMode="contain"
                 />
                 <Text>{filter}</Text>
